@@ -16,7 +16,7 @@ Parameters:
     Default: master
   GithubOAuthToken:
     Type: String
-    Default: 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
+    Default: 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
   ContainerPort:
     Type: Number
     Default: 8080
