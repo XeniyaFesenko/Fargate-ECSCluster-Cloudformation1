@@ -15,8 +15,8 @@ Parameters:
     Type: String
     Default: master
   GithubOAuthToken:
-    Type: String
-    Default: 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
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: gittoken
   ContainerPort:
     Type: Number
     Default: 8080
